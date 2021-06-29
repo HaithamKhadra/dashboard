@@ -1,0 +1,105 @@
+.multi-radio-toggle{
+  position: relative;
+  // background: linear-gradient(to left, 
+  // hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+  // margin: 20px auto 80px;
+  // padding: 0 !important;
+  // -webkit-border-radius: 50px;
+  // -moz-border-radius: 50px;
+  border-radius: 50px;
+  height: 30px;
+  // box-shadow:inset 1px 1px 4px rgba(223, 31, 31, 0);
+}
+
+.multi-radio-toggle--two{
+	width: 70px;
+}
+
+.multi-radio-toggle__label p{
+  display: block;
+  margin:0;
+  line-height: 30px;
+  font-size: 19px;
+  width: 20px;
+}
+
+.multi-radio-toggle__label{
+  position:absolute;
+  z-index:99;
+}
+
+.multi-radio-toggle input[type=radio]{
+  display: none;
+}
+/* first pos */
+.multi-radio-toggle__label:nth-of-type(1){
+  left: 2px;
+  width: 33px;
+  text-align: left;
+}
+
+/* last pos */
+.multi-radio-toggle--two .multi-radio-toggle__label:nth-of-type(2) {
+  right: 2px;
+  width: 33px;
+  text-align: right;
+}
+
+.multi-radio-toggle__label{
+  height: 35px;
+  margin: 0;
+  border-radius: 50px;
+  cursor: pointer;
+  z-index: 1;
+  text-align: center;
+  width: 20px;
+
+  .dark-mode {
+    position: relative;
+    left: 40px;
+  }
+
+  .light-mode {
+    position: relative;
+    right: 50px;
+  }
+
+
+}
+
+.multi-radio-toggle__slide-bg{
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  top: 2px;
+  border-radius: 50px;
+  transition: all .4s ease;
+}
+
+.multi-radio-toggle input:nth-child(1):checked ~ .multi-radio-toggle__slide-bg{
+  left: 7px;
+}
+
+.multi-radio-toggle input:nth-child(3):checked ~ .multi-radio-toggle__slide-bg{
+  left: 38px;
+}
+
+// .multi-radio-toggle__label--align-bottom p{
+//   display:block;
+//   margin-top: 30px;
+// }
+
+// .multi-radio-toggle > * {
+//   float: left;
+// }
+// .multi-radio-toggle input:checked ~ .multi-radio-toggle__slide-bg{
+// 	background: hsl(230, 22%, 74%);
+// }
+// .multi-radio-toggle input:nth-child(2):checked ~ .multi-radio-toggle__slide-bg{
+// 	left: 27px;
+// }
+
+
+// .multi-radio-toggle input:nth-child(4):checked ~ .multi-radio-toggle__slide-bg{
+// 	left: 113px;
+// }
