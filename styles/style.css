@@ -122,7 +122,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-top: 20px;
   margin: 0 auto;
 }
 
@@ -323,7 +322,6 @@ body {
 }
 
 #dash_overview .overview_title {
-  margin-top: 15px;
   color: var(--text-secondary);
   font-weight: 700;
 }
@@ -474,9 +472,6 @@ body {
     width: 100%;
     height: 100%;
     margin-top: 0;
-  }
-  #dash_overview .overview_info:last-child {
-    margin-bottom: 34px;
   }
   #dash_overview .overview_info .social_info {
     display: -webkit-box;
