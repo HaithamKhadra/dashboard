@@ -12,7 +12,7 @@
 }
 
 .multi-radio-toggle--two{
-	width: 70px;
+	width: 55px;
 }
 
 .multi-radio-toggle__label p{
@@ -77,11 +77,11 @@
 }
 
 .multi-radio-toggle input:nth-child(1):checked ~ .multi-radio-toggle__slide-bg{
-  left: 7px;
+  left: 2px;
 }
 
 .multi-radio-toggle input:nth-child(3):checked ~ .multi-radio-toggle__slide-bg{
-  left: 38px;
+  left: 28px;
 }
 
 // .multi-radio-toggle__label--align-bottom p{
