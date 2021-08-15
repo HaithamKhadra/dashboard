@@ -28,7 +28,18 @@ The visitors of this Landing page are able to:
 
 ## Tech Stack
 
-**Client side:** HTML, CSS, SASS, JavaScript.
+- ### Tools used on the **Client side:** 
+
+  - **HTML** 
+  - **CSS** - **SASS (SCSS)**
+  - **JavaScript**
+
+## Links
+
+- ### [live Demo](https://haithamkhadra.github.io/dashboard/)
+
+- [Frontend Mentor | Social media dashboard with theme switchers](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H)
+
 
 ## Screenshots
 
@@ -50,12 +61,6 @@ The visitors of this Landing page are able to:
 
 
 
-
-## Links
-
-### [live Demo](https://haithamkhadra.github.io/dashboard/)
-
-[Frontend Mentor | Social media dashboard with theme switchers](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H)
 
 
 
